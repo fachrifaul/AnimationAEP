@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AnimationAEP</string>
+    <string name="invalid_assets">Unable to load assets</string>
+
+</resources>
