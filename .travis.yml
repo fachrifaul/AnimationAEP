@@ -18,7 +18,7 @@ licenses:
 script:
   - ./gradlew assembleRelease --stacktrace --no-daemon
 after_script:
-  - ./gradlew crashlyticsUploadDistributionRelease
+  - ./gradlew crashlyticsUploadDistributionDebug
 before_install:
   - chmod +x gradlew
 branches:
