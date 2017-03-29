@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.fachrifaul.animationaep">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,8 +19,7 @@
         </activity>
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="a13822f0f8f3d809f89420f714cfba9aa27b400d" />
+            android:value="a13822f0f8f3d809f89420f714cfba9aa27b400d"/>
     </application>
 
-    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
